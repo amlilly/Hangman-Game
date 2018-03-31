@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman-Game</title>
+    <!-- link to Meyerweb reset stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Bootstrap CDN from my understanding the about reset stylesheet is included with bootstrap but I included it since it was listed on the assingment page-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j!Au+a5WDVnPi21kFfwwEaa8hDDdjZ1pLegxhjVME1fqjWPGmkzs7" crossorigin="anonymous">
+    <!-- link to external CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="jumbotron">
+                <h1>L'Étoile du Nord</h1>
+                
+                <p>A North Star State Themed Hangman</p>
+        </div>
+
+        
+        <div class="panel panel-default">
+              <div class="panel-heading">
+                    <h3 class="panel-title">Press any key to get started!</h3>
+              </div>
+              <div class="panel-body">
+                <p>Word to Guess</p>
+          </div>
+              <div class="panel-body">
+                    <h2 id="wordToGuess">_ _ _ _ _ _ _ _ _</h2>
+              </div>
+        </div>
+
+        
+        <div class="panel panel-default">
+            <div class="panel-body">
+               Wrong Guesses: <span id="wrongGuesses"></span>
+            </div>
+        </div>
+        
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Guesses Left: <span id="numGuesses">9</span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Win Counter: <span id="winCounter">0</span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Loss Counter: <span id="lossCounter">0</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Link to Javascript -->
+    <script src="assets/javascript/game.js"></script>
+    
+</body>
+</html>

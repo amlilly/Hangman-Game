@@ -1,0 +1,11 @@
+body  {
+    background-image: url("../images/stardust.png");
+}
+
+.jumbotron{
+    background-image: url("../images/bgnoise_lg.png");
+}
+
+.panel {
+    text-align: center;
+}
